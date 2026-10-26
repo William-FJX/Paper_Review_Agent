@@ -1,0 +1,13 @@
+[project]
+name = "paper-review-agent"
+version = "0.1.0"
+description = "A personalized research-paper learning agent"
+requires-python = ">=3.11"
+dependencies = [
+    "google-genai>=2.33,<3",
+    "pypdf>=6.21,<7",
+    "python-dotenv>=1.2,<2",
+]
+
+[project.scripts]
+paper-agent = "paper_agent.__main__:main"

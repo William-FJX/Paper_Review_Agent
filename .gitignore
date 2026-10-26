@@ -159,6 +159,15 @@ ENV/
 env.bak/
 venv.bak/
 
+# Private learner data and generated research artifacts
+private/
+
+# macOS Finder metadata
+.DS_Store
+
+# Local verification intermediates
+tmp/
+
 # Spyder project settings
 .spyderproject
 .spyproject
